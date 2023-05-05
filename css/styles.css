@@ -293,7 +293,7 @@ body {
 .main-header-box {
   background-color: #2f303a;
   background-image: linear-gradient(to bottom, #2f303a66, #2f303a66),
-    url("/images/main/mainimages.jpg");
+    url("../images/main/mainimages.jpg");
   display: flex;
   flex-direction: column;
   align-items: center;

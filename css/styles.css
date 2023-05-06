@@ -428,9 +428,7 @@ body {
   margin-bottom: 25px;
   margin-left: 102px;
 }
-.client-box {
-  background-color: #e5e5e5;
-}
+
 .client-header {
   font-weight: 700;
   font-size: 36px;
@@ -471,14 +469,14 @@ body {
   display: flex;
   width: 44px;
   height: 44px;
-  transition-property: fill;
+  border-radius: 50%;
+  transition-property: fill, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-icon:hover,
 .social-icon:focus {
   fill: var(--font-color2);
-  border-radius: 50%;
   background-color: #2196f3;
   cursor: pointer;
 }
